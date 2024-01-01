@@ -23,7 +23,7 @@ print(train_data)
 
 print("Test set :")
 print(test_data)
-#hi
+
 class ChessDataset (Dataset):
 
   def __init__(self,games , is_train=True):
